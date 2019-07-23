@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="28" viewBox="0 0 200 28">
+    <g fill="none" fill-rule="evenodd">
+        <g fill="#FFF">
+            <text font-family="TTNorms-Bold, TT Norms" font-size="13" font-weight="bold" transform="translate(69)">
+                <tspan x="0" y="12">ESPORT PLATFORM</tspan>
+            </text>
+            <text font-family="TTNorms-Medium, TT Norms" font-size="11" font-weight="400" opacity=".2" transform="translate(69)">
+                <tspan x="0" y="26">INFINITY UI SYSTEM</tspan>
+            </text>
+        </g>
+        <g transform="translate(0 1)">
+            <path stroke="#2529D8" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.9" d="M29.586.083l-8.103 7.474L13.25.083.013 13.631 13.25 26.954 40.007.084 52.941 13.63 40.007 26.954l-8.361-7.79-7.634 7.79"/>
+            <ellipse cx="40.072" cy="9.765" fill="#2529D8" rx="1.737" ry="1.769"/>
+            <path fill="#2529D8" d="M15.063 12.018h1.63c.776 0 1.405.629 1.405 1.404v.156c0 .775-.629 1.404-1.404 1.404h-1.631v1.614c0 .775-.629 1.404-1.404 1.404h-.172a1.404 1.404 0 0 1-1.404-1.404v-1.614h-1.63a1.404 1.404 0 0 1-1.404-1.404v-.156c0-.775.628-1.404 1.404-1.404h1.63v-1.614c0-.775.629-1.404 1.404-1.404h.172c.775 0 1.404.629 1.404 1.404v1.614z"/>
+            <ellipse cx="40.072" cy="17.629" fill="#2529D8" rx="1.737" ry="1.769"/>
+            <ellipse cx="36.212" cy="13.566" fill="#2529D8" rx="1.737" ry="1.769"/>
+            <ellipse cx="43.802" cy="13.566" fill="#2529D8" rx="1.737" ry="1.769"/>
+        </g>
+    </g>
+</svg>

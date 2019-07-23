@@ -1,8 +1,11 @@
 import React from 'react';
 
-import './styles/base.css';
-import './styles/reset.css';
+import Routes from './Routes';
 
-const App = () => <h1>Hello World</h1>
+import './styles/Fonts.css';
+import Global from './styles/Global';
+import './styles/Reset.css';
+
+const App = () => <><Global /><Routes /></>
 
 export default App;
