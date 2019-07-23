@@ -1,0 +1,56 @@
+{
+
+    "menu": [
+        {
+            "id": 1,
+            "title": "Dashboard",
+            "icon": "activity",
+            "url": "/"
+        }, {
+            "id": 2,
+            "title": "Favorites",
+            "icon": "heart",
+            "url": "/favorites"
+          }, {
+            "id": 3,
+            "title": "My Basket",
+            "icon": "bag",
+            "url": "/basket"
+        }, {
+            "id": 4,
+            "title": "Stream",
+            "icon": "stream",
+            "url": "/stream"
+        }
+    ],
+
+    "categories": [
+        {
+            "id": 1,
+            "title": "Bestsellers",
+            "icon": "flag",
+            "url": "/bestsellers"
+        }, {
+            "id": 2,
+            "title": "Recently Updated",
+            "icon": "flash",
+            "url": "/recently-updated"
+        }, {
+            "id": 3,
+            "title": "News",
+            "icon": "globe",
+            "url": "/news"
+        }, {
+            "id": 4,
+            "title": "Special Offers",
+            "icon": "gift",
+            "url": "/special-offers"
+        }, {
+            "id": 5,
+            "title": "Virtual Reality",
+            "icon": "headphone",
+            "url": "/virtual-reality"
+        }
+    ]
+
+}
