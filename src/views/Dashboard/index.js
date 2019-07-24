@@ -1,17 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Slider from '~/components/Slider';
 
-export default class Dashboard extends Component {
+const Dashboard = () => <Slider />
 
-    render() {
-
-        return(
-
-            <>
-                <h1>Dashboard</h1>
-            </>
-
-        )
-
-    }
-
-}
+export default Dashboard;
