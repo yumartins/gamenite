@@ -1,0 +1,25 @@
+{
+
+    "slides": [
+        {
+            "id": 1,
+            "title": "League of Legends",
+            "description": "League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements. ",
+            "path": "https://i.ibb.co/Hn0fmfZ/league.png",
+            "url": "/install"
+        }, {
+            "id": 2,
+            "title": "Battlefield VI",
+            "description": "League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements. ",
+            "path": "https://i.ibb.co/8Mx4t60/battefield.png",
+            "url": "/install"
+        }, {
+            "id": 3,
+            "title": "Resident Evil Remastered",
+            "description": "League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements. ",
+            "path": "https://i.ibb.co/SNZCdCL/resident-evil.png",
+            "url": "/install"
+        }
+    ]
+
+}

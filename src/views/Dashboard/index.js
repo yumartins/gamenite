@@ -1,6 +1,6 @@
 import React from 'react';
-import Slider from '~/components/Slider';
+import Slide from '~/components/Slide';
 
-const Dashboard = () => <Slider />
+const Dashboard = () => <Slide />
 
 export default Dashboard;

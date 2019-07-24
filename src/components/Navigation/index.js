@@ -4,7 +4,7 @@ import Icons from '~/components/Icons';
 
 import Logo from '~/assets/logo.svg';
 import { Container, Menu } from './styles';
-import { TitleShiny } from '~/styles/Themes';
+import { ShinyTitle } from '~/styles/Themes';
 import data from './data.json';
 
 export default function Navigation() {
@@ -25,7 +25,7 @@ export default function Navigation() {
         
             <Menu>
 
-                <TitleShiny>Menu</TitleShiny>
+                <ShinyTitle>Menu</ShinyTitle>
 
                 <ul className = 'navigation__menu'>
 
@@ -47,7 +47,7 @@ export default function Navigation() {
 
                 <div className = 'navigation__browser'>
 
-                    <TitleShiny>Browse Categories</TitleShiny>
+                    <ShinyTitle>Browse Categories</ShinyTitle>
                     <Icons name = 'more' width = { '18px' } height = { '4px' } fill = { '#FFF' } />
 
                 </div>
