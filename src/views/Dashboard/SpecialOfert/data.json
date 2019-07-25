@@ -1,0 +1,35 @@
+{
+
+    "games": [
+        {
+            "id": 1,
+            "title": "Play Dead by Daylight",
+            "description": "First asymmetrical multiplayer horror game.",
+            "callout": "Try it for free",
+            "path": "https://i.ibb.co/brbr3xm/img-dead-daylight.png",
+            "url": "/install"
+        }, {
+            "id": 2,
+            "title": "Try Demo Resident Evil 2",
+            "description": "Continuation of the hit previously released - Resident Evil.",
+            "callout": "Try demo",
+            "path": "https://i.ibb.co/pwqsXX9/img-resident-evil.png",
+            "url": "/install"
+        }, {
+            "id": 3,
+            "title": "Play Battlefield™ V",
+            "description": "Play the demo version!",
+            "callout": "",
+            "path": "https://i.ibb.co/q0cxp6k/img-battlefield.png",
+            "url": "/install"
+        }, {
+            "id": 4,
+            "title": "Play Dead by Daylight",
+            "description": "First asymmetrical multiplayer horror game.",
+            "callout": "Try it for free",
+            "path": "https://i.ibb.co/brbr3xm/img-dead-daylight.png",
+            "url": "/install"
+        }
+    ]
+
+}

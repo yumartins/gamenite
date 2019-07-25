@@ -16,6 +16,13 @@ export const SmallTitle = styled.h5`
     line-height: 1;
 `;
 
+export const MediumTitle = styled.h4`
+    color: #FFF;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 1;
+`;
+
 export const BigTitle = styled.h1`
     color: #FFF;
     font-weight: bold;
@@ -23,9 +30,10 @@ export const BigTitle = styled.h1`
 `;
 
 export const Button = styled.button`
-    padding: .875rem 1.25rem;
+    padding: 0 1.25rem;
     box-sizing: border-box;
     border-radius: .25rem;
+    height: 2.75rem;
     color: #FFF;
     border: none;
     font-size: .75rem;
@@ -45,6 +53,17 @@ export const ArrowButton = styled.button`
     background-color: transparent;  /* #030616 */
     border-radius: .25rem;
     border: solid 1px rgba(255, 255, 255, .08);
+    height: 2.75rem;
+    width: 2.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
+
+export const IconButton = styled.button`
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: .25rem;
+    border: none;
     height: 2.75rem;
     width: 2.75rem;
     display: flex;
