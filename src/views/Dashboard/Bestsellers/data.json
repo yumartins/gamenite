@@ -1,0 +1,31 @@
+{
+
+    "games": [
+        {
+            "id": 1,
+            "title": "Horizon Zero Dawn™",
+            "price": "49,95 USD",
+            "path": "https://i.ibb.co/Jk04qJ2/img-horizon.png",
+            "url": "/buy"
+        }, {
+            "id": 2,
+            "title": "God of War™",
+            "price": "149,95 USD",
+            "path": "https://i.ibb.co/T1HdvMK/img-god-of-war.png",
+            "url": "/buy"
+        }, {
+            "id": 3,
+            "title": "Red Dead Redemptio…",
+            "price": "189,95 USD",
+            "path": "https://i.ibb.co/cLGVfJ6/img-red-dead.png",
+            "url": "/buy"
+        }, {
+            "id": 4,
+            "title": "The Witcher 3: Wild…",
+            "price": "39,95 USD",
+            "path": "https://i.ibb.co/DtJG4bm/img-the-witcher.png",
+            "url": "/buy"
+        }
+    ]
+
+}

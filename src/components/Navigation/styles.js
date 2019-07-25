@@ -5,8 +5,11 @@ export const Container = styled.section`
     box-sizing: border-box;
     max-width: 17.5rem;
     width: 100%;
-    height: 100vh;
     border-right: .125rem solid #15161F;
+    background-color: #030616;
+    z-index: 999;
+    position: absolute;
+    height: 100%;
 `;
 
 export const Menu = styled.div`

@@ -47,7 +47,7 @@ export default function SpecialOfert() {
 
                             <div className = 'buttons'>
 
-                                <Link to = { ofert.url } ><PrimaryButton>Play</PrimaryButton></Link>
+                                <Link to = { ofert.url } className = 'left' ><PrimaryButton>Play</PrimaryButton></Link>
                                 <IconButton><Icons name = 'heart_fill' width = { '1.125rem' } height = { '.875rem' } fill = { '#FFF' } /></IconButton>
 
                             </div>

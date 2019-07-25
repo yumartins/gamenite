@@ -8,6 +8,10 @@ const Global = createGlobalStyle`
         background-color: #030616;
     }
 
+    body {
+        overflow-x: hidden;
+    }
+
     #root {
         display: flex;
         width: 100vw;
