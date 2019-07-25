@@ -34,12 +34,12 @@ export default function SpecialOfert() {
 
                 <div className = 'buttons'>
 
-                    <ArrowButton className = 'right' >
-                        <Icons name = 'arrow_right' width = { '1rem' } height = { '.875rem' } fill = { '#FFF' } />
-                    </ArrowButton>
-
                     <ArrowButton>
                         <Icons name = 'arrow_left' width = { '1rem' } height = { '.875rem' } fill = { '#FFF' } />
+                    </ArrowButton>
+
+                    <ArrowButton className = 'right' >
+                        <Icons name = 'arrow_right' width = { '1rem' } height = { '.875rem' } fill = { '#FFF' } />
                     </ArrowButton>
 
                 </div>
