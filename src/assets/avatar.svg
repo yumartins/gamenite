@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47" height="47" viewBox="0 0 47 47">
+    <defs>
+        <circle id="a" cx="23.5" cy="23.5" r="23.5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="#2529D8" xlink:href="#a"/>
+        <text fill="#FFF" font-family="TTNorms-Bold, TT Norms" font-size="13" font-weight="bold" mask="url(#b)">
+            <tspan x="15.259" y="28">BZ</tspan>
+        </text>
+    </g>
+</svg>

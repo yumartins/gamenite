@@ -1,9 +1,21 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
+    position: relative;
+
+    .title_slider {
+        position: absolute;
+        z-index: 12;
+        top: 10rem;
+        left: 2.5rem;
+    }
+
+`;
+
+export const Content = styled.section`
 
     width: 100%;
-    height: 45rem;
+    height: 48rem;
     overflow: hidden;
     position: relative;
     display: flex !important;
@@ -23,6 +35,7 @@ export const Container = styled.section`
     .content {
         position: relative;
         z-index: 9;
+        margin-left: 2.5rem;
 
         .title {
             max-width: 40rem;

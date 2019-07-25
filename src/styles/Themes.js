@@ -8,6 +8,14 @@ export const ShinyTitle = styled.h6`
     line-height: 1;
 `;
 
+export const SmallTitle = styled.h5`
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: .75rem;
+    line-height: 1;
+`;
+
 export const BigTitle = styled.h1`
     color: #FFF;
     font-weight: bold;
@@ -31,6 +39,17 @@ export const PrimaryButton = styled(Button)`
 
 export const SecondaryButton = styled(Button)`
     background-color: rgba(255, 255, 255, .1);
+`;
+
+export const ArrowButton = styled.button`
+    background-color: transparent;  /* #030616 */
+    border-radius: .25rem;
+    border: solid 1px rgba(255, 255, 255, .08);
+    height: 2.75rem;
+    width: 2.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 `;
 
 

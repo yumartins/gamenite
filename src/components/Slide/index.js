@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Slider from "react-slick";
 import { Link } from 'react-router-dom';
 
-import { Container } from './styles';
-import { BigTitle, PrimaryButton, SecondaryButton } from '~/styles/Themes';
+import { Container, Content } from './styles';
+import { SmallTitle, BigTitle, PrimaryButton, SecondaryButton } from '~/styles/Themes';
 
 import data from './data.json';
 import './slick.css'; 
@@ -28,32 +28,38 @@ export default function Slide() {
     }
 
    return (
+
+        <Container>
+            
+            <SmallTitle className = 'title_slider'>Awarded and Recommended</SmallTitle>
        
-        <Slider { ...settings }>
+            <Slider { ...settings }>
 
-            { slides && slides.map( slide => (
+                { slides && slides.map( slide => (
 
-                <Container key = { slide.id }>
+                    <Content key = { slide.id }>
 
-                    <img src = { slide.path } className = 'image' alt = 'image_slider' />
+                        <img src = { slide.path } className = 'image' alt = 'image_slider' />
 
-                    <div className = 'content'>
+                        <div className = 'content'>
 
-                        <BigTitle className = 'title'>{ slide.title }</BigTitle>
-                        <p className = 'description'>{ slide.description }</p>
+                            <BigTitle className = 'title'>{ slide.title }</BigTitle>
+                            <p className = 'description'>{ slide.description }</p>
 
-                        <div className = 'buttons'>
-                            <Link to = { slide.url }><PrimaryButton>Install Game</PrimaryButton></Link>
-                            <Link to = { slide.url } className = 'right'><SecondaryButton>Add to Favorites</SecondaryButton></Link>
+                            <div className = 'buttons'>
+                                <Link to = { slide.url }><PrimaryButton>Install Game</PrimaryButton></Link>
+                                <Link to = { slide.url } className = 'right'><SecondaryButton>Add to Favorites</SecondaryButton></Link>
+                            </div>
+
                         </div>
 
-                    </div>
+                    </Content>
 
-                </Container>
+                )) }
 
-            )) }
+            </Slider>
 
-        </Slider>
+        </Container>    
 
    )
 

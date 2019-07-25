@@ -8,6 +8,12 @@ const Global = createGlobalStyle`
         background-color: #030616;
     }
 
+    #root {
+        display: flex;
+        width: 100vw;
+        position: relative;
+    }
+
 `;
 
 export default Global;
